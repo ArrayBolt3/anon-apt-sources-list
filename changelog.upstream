@@ -1,3 +1,9 @@
+commit 2eae9e60d9303bbd9c624b084984d8938811ab82
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 09:35:56 2026 +0000
+
+    bumped changelog version
+
 commit 8decfaa843993d8d6a8b60950e883d5ab622411c
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:29:43 2026 -0400
@@ -97,7 +103,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Mar 5 06:04:00 2025 -0500
 
     Merge pull request #2 from ben-grande/fasttrack-backports-staging
-    
+
     Add Fasttrack backports-staging suite
 
 commit 149f278b4d60a5748fb757166969237f677a01c0
@@ -153,7 +159,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Nov 10 07:31:02 2024 -0500
 
     Revert "Avoid naming conflict with live-build"
-    
+
     This reverts commit d67a11b5ac98fce151ad82fe0fec7292409cd55a.
 
 commit 3d90473d00e8527aedcc04b4e7847e93c8adbf8e
@@ -240,7 +246,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jan 18 05:44:31 2024 -0500
 
     allows only installation of Flatpak applications that are both, `verified` publishers and `floss` (Freedom Software)
-    
+
     this is equivalent to the `flatpak` `--subset=verified_floss` option
 
 commit b73e3db789f7025377611ea4b5d32ea58247f460
@@ -248,11 +254,11 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jan 18 02:55:40 2024 -0500
 
     enable Flathub repository by default
-    
+
     `/etc/flatpak/remotes.d/flathub.flatpakrepo`
-    
+
     source: https://flathub.org/repo/flathub.flatpakrepo
-    
+
     https://forums.whonix.org/t/flatpak-as-a-software-source-flathub-as-a-source-of-software/8500
 
 commit 4c888435743ac9effdb17b7194b74f1e949a19e6
@@ -266,7 +272,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:27 2023 -0500
 
     change license to AGPL-3+
-    
+
     https://forums.whonix.org/t/license-change-to-agplv3/17455
 
 commit 49a3da7a22fe9dcaf22916471c2c6728e066515e
@@ -294,7 +300,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Aug 12 10:12:58 2023 -0400
 
     Merge pull request #1 from TNTBOMBOM/master-1
-    
+
     Remove duplication of debian bookworm onion
 
 commit 16d92686a6c35820d0bc440fc426643c371ff183
@@ -428,9 +434,9 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Nov 7 15:03:02 2022 -0500
 
     comment: add fasttrack onion
-    
+
     https://forums.whonix.org/t/install-debian-fasttrack-archive-keyring-enable-debian-fasttrack-repository-by-default/11456/9
-    
+
     https://web.archive.org/web/20221107195903/https://securityheaders.com/?q=https%3A%2F%2Ffasttrack.debian.net%2F&followRedirects=on
 
 commit ef4a828e8e79d7a93aea86008630127c892e9da6
@@ -588,10 +594,10 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jun 5 11:19:23 2021 -0400
 
     fixes
-    
+
     - do not enable deb-src by default
     - comments consistency
-    
+
     Thanks to @TNT_BOM_BOM for the bug report!
 
 commit 33828132ed458220871c2668a63c8811e55c3bff
@@ -617,7 +623,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Jun 1 04:56:36 2021 -0400
 
     remove trailing slash ("`/`") from Debian security repository
-    
+
     since not used on https://onion.debian.org either
 
 commit e3a261a3ab032f964c65c47a3187d6f4624f01f4
@@ -625,7 +631,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Jun 1 04:55:45 2021 -0400
 
     update to onion v3
-    
+
     https://onion.debian.org
 
 commit 0d596841cd08f72aea5b681a79c09d0e74e5c320
@@ -675,11 +681,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Apr 20 08:54:08 2020 -0400
 
     enable stable-updates by default
-    
+
     https://wiki.debian.org/StableUpdates
-    
+
     Thanks to @tempest for the suggestion!
-    
+
     https://forums.whonix.org/t/enable-debian-stable-updates-repository-by-default/9382
 
 commit 1d6924edbbf56ac00c787a594c39020ce70d6aed
@@ -891,18 +897,18 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 1 14:31:47 2019 +0000
 
     add improved legal protections clauses
-    
+
     The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
-    
+
     The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
-    
+
     * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
     * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
-    
+
     [1] https://www.debian.org/social_contract#guidelines
     [2] https://www.fsf.org/news/canonical-updated-licensing-terms
     [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
-    
+
     For more considerations, see also:
     https://www.whonix.org/wiki/Dev/Licensing
 
@@ -917,7 +923,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 20 05:43:42 2019 +0000
 
     enable https by default
-    
+
     https://phabricator.whonix.org/T721
 
 commit 8846e18a3bae24ed64fb5e9351f2ef614eaf1566
@@ -925,7 +931,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jan 19 23:57:53 2019 -0500
 
     disable onions by default due to unreliablity
-    
+
     https://forums.whonix.org/t/disable-onions-by-default-due-to-unreliablity/6650
 
 commit ef6f91e9ccf8a3d7b2586ac275697a6eae39b6d1
@@ -939,7 +945,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Nov 8 11:26:38 2018 +0000
 
     Revert "deb.debian.org and https by default"
-    
+
     This reverts commit 9f08431be63b4977931fe2db57b067e660828997.
 
 commit 8b9bd71a22d16de931a804b808ee3cf9b032bb13
@@ -953,7 +959,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Nov 8 08:50:22 2018 +0000
 
     deb.debian.org and https by default
-    
+
     https://phabricator.whonix.org/T721
 
 commit 2ff01edb89ca7b57fde138d4ba80b43f4a050769
@@ -1045,7 +1051,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:48 2017 +0000
 
     remove faketime from Build-Depends:
-    
+
     since no longer used for reproducible builds
 
 commit e244bc4a35615bbad00bd85c5a4270b930a9a16a
@@ -1065,7 +1071,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jan 18 13:21:04 2017 +0000
 
     use http+tor / apt-transport-tor rather than Acquire::BlockDotOnion "false";
-    
+
     https://phabricator.whonix.org/T610
 
 commit 48fbc20a43b85dbe18aa07fabb0a93f1ee02fe69
@@ -1073,7 +1079,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jan 18 13:20:07 2017 +0000
 
     use http+tor / apt-transport-tor rather than Acquire::BlockDotOnion "false";
-    
+
     https://phabricator.whonix.org/T610
 
 commit f3f19c83473d7168505386610b8031635cd618f2
@@ -1087,7 +1093,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 10:44:25 2017 +0000
 
     add lintian override
-    
+
     anon-apt-sources-list: package-installs-apt-sources
 
 commit aa63e7468b0ec1d20821cdb37ed6db17925cb849
@@ -1113,13 +1119,13 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jan 7 23:30:49 2017 +0000
 
     Allow direct connection to onion domains.
-    
+
     apt-get is pointed to a
     Tor SocksPort anyhow by uwt / torsocks. Therefore this leak protection by
     apt-get is not required in Whonix.
-    
+
     add /etc/apt/apt.conf.d/30onion-allow
-    
+
     Acquire::BlockDotOnion "false";
 
 commit d843e5934655bc54ae98af5e72f127365d727324
@@ -1139,7 +1145,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Aug 19 00:26:00 2016 +0000
 
     additionally use Debian onion repository
-    
+
     https://phabricator.whonix.org/T399
 
 commit e7c4cc74438c4bd03d8e50ab91b5a7c807133b5e
@@ -1327,7 +1333,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Aug 17 21:10:14 2014 +0000
 
     Merge tag '0.2-2'
-    
+
     .
 
 commit 76ec6f7282d0b6622b1ea0b21eb5181af3a52fdc
