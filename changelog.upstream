@@ -1,3 +1,22 @@
+commit 680cedcf2e706868c3b6902feb8c42cc5f9695af
+Merge: e009b08 0252754
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jul 7 06:01:47 2026 -0400
+
+    Merge remote-tracking branch 'refs/remotes/ArrayBolt3/arraybolt3/trixie'
+
+commit 0252754559f4c2fb099fbaa46b822d135e008343
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Fri Jul 3 21:16:30 2026 -0400
+
+    Disable Debian Fast Track repository by default
+
+commit e009b084181f14c7c8adc0e138568c60ebbcf0fd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 20 21:54:35 2026 +0000
+
+    bumped changelog version
+
 commit 8ae0d45228b4d951cfbb2ddddf40b98266f1ec02
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed May 20 16:56:34 2026 -0400
