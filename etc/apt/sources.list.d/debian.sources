@@ -37,16 +37,18 @@ Components: main contrib non-free non-free-firmware
 Enabled: yes
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
+######## DISABLED BY DEFAULT SOURCES ########
+
+#### deb ####
+
+## fasttrack was previously used for VirtualBox packages. It is no longer
+## needed.
 Types: deb
 URIs: tor+https://fasttrack.debian.net/debian-fasttrack
 Suites: trixie-fasttrack trixie-backports-staging
 Components: main contrib non-free
-Enabled: yes
+Enabled: no
 Signed-By: /usr/share/keyrings/fasttrack-archive-keyring.gpg
-
-######## DISABLED BY DEFAULT SOURCES ########
-
-#### deb ####
 
 Types: deb
 URIs: tor+http://2s4yqjx5ul6okpp3f2gaunr2syex5jgbfpfvhxxbbjwnrsvbk5v3qbid.onion/debian
